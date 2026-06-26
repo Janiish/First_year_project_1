@@ -1,0 +1,19 @@
+{
+  "name": "guardrail-server",
+  "version": "1.0.0",
+  "description": "GuardRail SAST Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "cors": "^2.8.5",
+    "acorn": "^8.14.1",
+    "acorn-walk": "^8.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
